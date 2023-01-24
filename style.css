@@ -1,0 +1,146 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: shailendra;
+    src: url("gfonts/Merriweather-Regular.ttf");
+}
+.logo{
+    color:#000;
+    font-family: shailendra;
+    font-size:1.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-link{
+    color:#000;
+}
+.nav-link:hover{
+    color: rgb(12, 178, 255);
+}
+.logo:hover{
+    color:rgb(12, 178, 255);
+}
+.container-fluid{
+    padding:0% 2% 0%;
+}
+.container{
+    width: 100%;
+    margin:auto;
+}
+.nav-item{
+    padding:0 10px;
+}
+.btn{
+    margin:0 6px;
+}
+/* carousel */
+#carausels{
+    padding:0% 3% 0%;
+}
+.carousel-item{
+    height:250px;
+}
+.carousel-item img{
+    width:100%;
+}
+#reels{
+    padding:10px 0px;
+}
+.img-col{
+    /* height:150px;
+    width: 150px;
+    border-radius: 50%; */
+    padding:10px 10px 10px;
+    text-align: center;
+}
+.img-col a{
+    text-decoration: none;
+    color:#000;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.img-col a .border{
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.heading{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.heading h1{
+    font-size:1.5rem;
+    color:#0d6efd;
+    text-transform: capitalize;
+}
+.heading a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.fix{
+    width: 100%;
+}
+#video{
+    padding:4% 3% 0%;
+}
+.player{
+    width: 98%;
+    margin: auto;
+}
+#videos{
+    margin: auto;
+    width: 95%;
+}
+video{
+    height:50%;
+    width: 100%;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex button{
+    height:40px;
+    width: 150px;
+}
+h2{
+    font-family: shailendra;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.down p{
+    color:#c8c8c8;
+    font-weight: 500;
+    font-size: .9rem;
+}
+.Channel{
+    background: rgba(102, 51, 153, 0.733);
+    margin:30px 50px 0px 0px;
+    border-radius: 10px;
+}
+h6{
+    color:#000;
+    font-size: 1.3rem;
+    padding:5px 0;
+}
+.ch-link{
+    color:#000;
+}
+.card{
+    width: 100%;
+}
+.card-row{
+    padding: 0 3%;
+}
+@media (max-width:700px){
+    .carousel-item{
+        height:200px;
+    }
+}
